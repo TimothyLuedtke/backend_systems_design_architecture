@@ -1,5 +1,13 @@
 # What is Software Architecture Design?
 
+## Table of Contents
+
+- [What is Software Architecture Design?](#what-is-software-architecture-design)
+  - [Definition](#definition)
+  - [Importance](#importance)
+  - [Key Principles](#key-principles)
+  - [Key Challenges](#key-challenges)
+
 ## Definition
 
 The process of defining the modularity, interface, and data flow for a system to satisfy specified requirements.
