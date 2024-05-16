@@ -15,4 +15,7 @@
   - Importance
   - Key Principles
   - Key Challenges
-  
+
+### *Note*
+
+  *The following repo contains some of my takeaways from the workshop. If you are interested in what you see in this repo, I **highly** recommend supporting both Erik and Frontend Masters, and watching the original video*
