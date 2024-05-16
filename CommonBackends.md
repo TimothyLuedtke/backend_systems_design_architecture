@@ -4,6 +4,23 @@
 - Distributed (service-oriented)
 - Serverless
 
+## Table of Contents
+
+- [Monolith](#monolith)
+  - [Pros of Monoliths](#pros-of-monoliths)
+  - [Cons of Monoliths](#cons-of-monoliths)
+  - [Use Cases of Monoliths](#use-cases-of-monoliths)
+- [Distributed (Service-Oriented)](#distributed-service-oriented)
+  - [Distributed (Generic Services)](#distributed-generic-services)
+  - [Distributed (Microservices)](#distributed-microservices)
+  - [Pros of Distributed Systems](#pros-of-distributed-systems)
+  - [Cons of Distributed Systems](#cons-of-distributed-systems)
+  - [Use Cases of Distributed Systems](#use-cases-of-distributed-systems)
+- [Serverless](#serverless)
+  - [Pros of Serverless](#pros-of-serverless)
+  - [Cons of Serverless](#cons-of-serverless)
+  - [Use Cases of Serverless](#use-cases-of-serverless)
+
 ## Monolith
 
 - **Definition**: A monolithic architecture is a traditional unified model for designing software where the different components of the application are combined into a single program from a single platform.
@@ -67,3 +84,50 @@
 - **Development and Testing**: Writing and testing applications is more difficult due to it being distributed system.
 
 - **Data Management**: Managing data consistency can be challenging.
+
+### **Use Cases of Distributed Systems**
+
+- **E-commerce platforms**: They often need to handle high volumes of transactions and user interactions, which can be efficiently managed through independent micoservices.
+
+- **Social media platforms**: The various functionalities like posting, messaging, and notofications can be divided into separate microservices.
+
+- **Streaming services**: Microservices can help handle
+the heavy load and deliver smooth streaming experience.
+
+- **Online gaming platforms**: They can use microservices to manage game logic, player data, and real-time multiplayer interactions separately.
+
+- **Large-scale IoT systems**: Each device or sensor type can be managed by a dedicated microservice.
+
+## Serverless
+
+- **Definition**: Serverless architcecture refers to applications that significantly depend on third-party services(Backend-as-a-Service or BaaS) or on custom code that's run in ephemeral containers(Function-as-a-Service or FaaS).
+
+- **Overview**: Serverless architectures, the app logic is still run on servers, but all the serber management is done by the cloud provider. This allows developers to focus on writing code without worrying about the underlying infrastructure.
+
+### **Pros of Serverless**
+
+- **No Server Management**: Developers do not need to worry about server provisioning, scaling, or maintenance.
+
+- **Cost-Effective**: You only pay for the time your code is running, which can be more cost-effective than traditional server-based architectures.
+
+- **Automated Scaling**: Serverless architectures can automatically scale to meet demand.
+
+### **Cons of Serverless**
+
+- **Expensive for Long-Running Applications**: For applications that run for long periods of time, serverless can be more expensive than traditional server-based architectures.
+
+- **Testing**: Testing serverless applications can be more challenging than traditional server-based applications due to the reliability on the internet.
+
+- **Troubleshooting and Debugging**: Debugging serverless applications can be more challenging due to the distributed nature of the architecture.
+
+### **Use Cases of Serverless**
+
+- **Real-time File Processing**: Serverless functions can be triggered by file uploads to process the files in real-time. *Ex: Image resizing, PDF generation.*
+
+- **Real-time Stream Processing**: Perform real-time analytics on streaming data from sources like IoT devices or social media feeds. *Ex: Processing and analyzing data from sensors.*
+
+- **Extract, Transform, Load (ETL) Jobs**: Serverless functions can be used to process and transform data from one format to another. *Ex: Extracting data from a database, transforming it, and loading it into a data warehouse.*
+
+- **Websites and Web Applications**: Serverless architectures can be used to host static websites or dynamic web applications. *Ex: Hosting a blog, portfolio, or e-commerce site.*
+
+- **Scheduled Tasks**: Serverless functions can be scheduled to run at specific times to perform tasks like data backups or cleanup.
