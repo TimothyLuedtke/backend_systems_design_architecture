@@ -4,6 +4,12 @@
 
 - [How to use Software Architecture Design?](#how-to-use-software-architecture-design)
   - [Design Stages](#design-stages)
+  - [Research](#research)
+    - [Setting Requirements](#setting-requirements)
+    - [Exploration](#exploration)
+    - [Technical Documents](#technical-documents)
+  - [Implementing System Designs](#implementing-system-designs)
+  - [Best Practices](#best-practices)
 
 ## Design Stages
 
@@ -15,27 +21,40 @@
 
 #### Setting Requirements
 
-- Identify the primary purpose and scope of the system
+- Identify the primary purpose and scope of the system.
+
 - Undestand the needs and expectations of the end-users of the system.
+
 - Determine the functionality that the system needs to provide to meet the end-users' needs.
+
 - Specify the performance levels that the system needs to achieve.
+
 - Identify any constraints or limitations, such as budget, resources, or time.
+
 - Consider the scalability needs of the system - how it can grow and adapt to increased demand.
+
 - Determine any security requirements to protect data and processes within the system.
+
 - Identify any regulatory or compliance requirements that the system needs to meet.
+
 - Specify the requirements for integrating the new system with existing systems.
 
 #### Exploration
 
 - Research and testing of new technologies.
+
 - Experimenting with new methodologies and tools.
-- **Determine if the goal is to improve the system design entirely (innovation) or make small changes where needed (iteration).**
+
+- ***Determine if the goal is to improve the system design entirely (innovation) or make small changes where needed (iteration).***
 
 #### Technical Documents
 
 - Used for understanding possible explored solutions or ideas which keep the project on path.
+
 - Provide detailed descriptions of the explored systems, including architectures, modules, interfaces, and data relevant to the project.
+
 - Reference for the development team and other stakeholders.
+
 - Facilitate communicaton and collaboration.
 
 ## Implementing System Designs
